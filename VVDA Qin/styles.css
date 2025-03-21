@@ -1,0 +1,136 @@
+body {
+  background: linear-gradient(#ffffff, #ffffff, rgb(223, 234, 255));
+}
+
+h1,
+h3,
+h2 {
+  font-family: "Crete Round";
+  font-weight: 400;
+}
+
+p,
+a {
+  font-family: "Lato";
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin-top: 4.5vh;
+  margin-left: 40px;
+}
+header > a {
+  margin-left: 20px;
+  font-size: 15px;
+}
+header > a:hover {
+  color: #ff5d73;
+  transition: ease-in 0.5s;
+}
+
+#introHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+#introHome > h3 {
+  margin-top: 0;
+}
+#introText > h1 {
+  margin-bottom: 0;
+  font-size: 70px;
+}
+#introText {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  margin-left: 60px;
+}
+#introText > #slogan {
+  font-size: 30px;
+  text-decoration: underline #ff5d73;
+}
+#introImg {
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+}
+#introImg > img {
+  width: 700px;
+}
+
+#standpunten {
+  text-align: center;
+}
+#standpunten > h1 {
+  margin-top: 40px;
+  font-size: 30px;
+}
+#standpunten > h2 {
+  text-decoration: underline #ff5d73;
+  font-size: 37px;
+}
+
+/* button styling */
+.button-45 {
+  align-items: center;
+  background-color: #5988da;
+  background-position: 0 0;
+  border: 1px solid #5988da;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-family: "Lato";
+  font-weight: 500;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg)
+    none;
+  padding: 2px 12px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+  width: fit-content;
+  margin-top: 30px;
+}
+
+.button-45:active,
+.button-45:hover,
+.button-45:focus {
+  outline: 0;
+}
+
+.button-45:active {
+  background-color: #2d559c;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #ffffff;
+}
+
+.button-45:hover {
+  background-color: #2d559c;
+  border-color: #5988da;
+  transition: ease-in 0.5s;
+  color: #ffffff;
+}
+
+.button-45:active:hover,
+.button-45:focus:hover,
+.button-45:focus {
+  background-color: #2d559c;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px 0 inset;
+  color: #ffffff;
+}
